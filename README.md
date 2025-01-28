@@ -1,6 +1,6 @@
 # 📌 browser-use-groq
 
-A fork of browser-use that runs on **Models(mainly Llama) under Groq Cloud**, providing a **free and efficient** way to use LLMs on the cloud for running Browser-use.
+A fork of browser-use that runs on Groq Cloud-supported models (mainly Llama models) for free and efficient inference with browser-use.
 
 ---
 
@@ -52,7 +52,7 @@ python -m venv venv
 
 #### Windows (PowerShell)
 ```sh
-venv\Scriptsctivate
+venv\Scripts\activate
 ```
 
 #### Mac/Linux
@@ -111,7 +111,7 @@ By default, the script uses **Llama-3.3-70B**, but you can switch to **any Groq-
 
 ### How to Change the Model
 
-Modify `TestGroq.py` and update this line:
+"Modify the TestGroq.py script and update the model parameter to your preferred LLM:
 
 ```python
 llm = ChatGroq(model="llama-3.3-70b-versatile", api_key=os.getenv("GROQ_API_KEY"))
@@ -128,7 +128,7 @@ llm = ChatGroq(model="mixtral-8x7b", api_key=os.getenv("GROQ_API_KEY"))
 ## 📜 License
 
 This project is licensed under the **MIT License**.  
-It is a **modified version of browser_use**, integrating **Groq’s LLM API** for enhanced automation.
+It is a **modified version of browser_use**, integrating **Groq’s LLM API** for enhanced automation with free cloud inference for LLMs.
 
 See the **LICENSE** file for more details.
 
