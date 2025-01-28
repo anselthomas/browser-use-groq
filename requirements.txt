@@ -1,0 +1,9 @@
+langchain-groq==0.2.2
+python-dotenv
+openai
+lmnr
+pillow
+langchain-anthropic
+playwright
+MainContentExtractor
+posthog
